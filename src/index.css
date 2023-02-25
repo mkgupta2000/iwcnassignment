@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Poppins";
+  background-color: rgb(87, 112, 104);
 }
 * {
   box-sizing: border-box;
@@ -49,6 +50,7 @@ form {
   min-height: 70px;
   margin: 10px auto;
   width: 30%;
+  background-color: antiquewhite;
 }
 .note .title {
   color: rgb(255, 162, 0);
