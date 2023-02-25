@@ -107,6 +107,13 @@ form button {
   padding: 8px 15px;
   cursor: pointer;
 }
+.copyright {
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  right: 45%;
+  color: white;
+}
 
 @media screen and (max-width: 800px) {
   .note-container {

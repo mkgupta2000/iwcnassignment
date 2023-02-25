@@ -9,6 +9,9 @@ export const App = () => {
       <Header />
 
       <Note />
+      <div className="copyright">
+        <p>Copyright @ 2022</p>
+      </div>
     </div>
   );
 };
