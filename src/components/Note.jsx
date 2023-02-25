@@ -15,8 +15,10 @@ export const Note = () => {
     <div className="container">
       <Form onCreate={createNote} />
       <div className="note-container">
-        {notes && notes.map}
-        <DisplayNote title="This is Note 1" content="Content For Note 1" />
+        {notes &&
+          notes.map((note) => (
+            <DisplayNote title={note.title} content={note.content} />
+          ))}
       </div>
     </div>
   );

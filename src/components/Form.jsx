@@ -20,7 +20,7 @@ export const Form = (props) => {
       <input
         type="text"
         name="title"
-        placeholder="Enter Title..."
+        placeholder="Take a note..."
         onChange={handleChange}
         value={note.title}
       ></input>
