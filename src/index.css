@@ -59,3 +59,40 @@ form {
 .note .content {
   color: #555;
 }
+form {
+  max-width: 500px;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  background-color: antiquewhite;
+}
+
+form input,
+textarea {
+  outline: none;
+  border: none;
+  padding: 8px;
+  margin: 10px auto;
+  width: 100%;
+  font-family: "Poppins";
+  background-color: antiquewhite;
+}
+
+form input {
+  font-size: 20px;
+  background-color: antiquewhite;
+}
+form button {
+  background-color: rgb(255, 162, 0);
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+  border: none;
+  outline: none;
+  padding: 8px 15px;
+  margin: auto;
+  cursor: pointer;
+}
