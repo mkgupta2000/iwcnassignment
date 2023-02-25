@@ -11,13 +11,25 @@ export const Note = () => {
       return [...prevNotes, note];
     });
   };
+  const deleteNote = (id) => {
+    setNotes((prevNotes) => {
+      return prevNotes.filter((item, index) => {
+        return index !== id;
+      });
+    });
+  };
   return (
     <div className="container">
       <Form onCreate={createNote} />
       <div className="note-container">
         {notes &&
-          notes.map((note) => (
-            <DisplayNote title={note.title} content={note.content} />
+          notes.map((note, index) => (
+            <DisplayNote
+              title={note.title}
+              content={note.content}
+              id={index}
+              getId={deleteNote}
+            />
           ))}
       </div>
     </div>

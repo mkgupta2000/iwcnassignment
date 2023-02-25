@@ -96,3 +96,13 @@ form button {
   margin: auto;
   cursor: pointer;
 }
+
+@media screen and (max-width: 800px) {
+  .note-container {
+    flex-direction: column;
+  }
+
+  .note {
+    width: 100%;
+  }
+}

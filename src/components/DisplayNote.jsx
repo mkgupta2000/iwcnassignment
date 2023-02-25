@@ -10,7 +10,7 @@ export const DisplayNote = (props) => {
       <p className="title">{props.title}</p>
       <p className="content">{props.content}</p>
       <button className="dlt-btn" onClick={() => handleClick(props.id)}>
-        <DeleteIcon />
+        <DeleteIcon color="action" />
       </button>
     </div>
   );
