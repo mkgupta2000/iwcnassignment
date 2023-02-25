@@ -7,3 +7,14 @@ body {
 * {
   box-sizing: border-box;
 }
+header {
+  align-items: flex-start;
+  display: flex;
+  background-color: rgb(1, 20, 15);
+  color: #fff;
+  height: 60px;
+
+  padding: 0 20px;
+  align-items: center;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+}
