@@ -7,8 +7,11 @@ export const DisplayNote = (props) => {
   };
   return (
     <div className="note">
-      <p className="title">{props.title}</p>
-      <p className="content">{props.content}</p>
+      <div>
+        <p className="title">{props.title}</p>
+        <p className="content">{props.content}</p>
+      </div>
+
       <button className="dlt-btn" onClick={() => handleClick(props.id)}>
         <DeleteIcon color="action" />
       </button>

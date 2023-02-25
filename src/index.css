@@ -23,7 +23,6 @@ header {
   max-width: 1000px;
   margin: auto;
   padding: 10px;
-  border: 1px solid green;
 }
 form {
   max-width: 500px;
@@ -39,9 +38,11 @@ form {
   flex-wrap: wrap;
   width: 100%;
   justify-content: flex-start;
-  border: 1px solid red;
 }
 .note {
+  display: flex;
+  justify-content: space-between;
+
   font-size: 14px;
   background-color: #fff;
   padding: 10px 13px;
@@ -94,6 +95,16 @@ form button {
   outline: none;
   padding: 8px 15px;
   margin: auto;
+  cursor: pointer;
+}
+.dlt-btn {
+  margin-top: 65px;
+  color: #fff;
+  border-radius: 5px;
+  background-color: antiquewhite;
+  border: none;
+  outline: none;
+  padding: 8px 15px;
   cursor: pointer;
 }
 
