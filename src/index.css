@@ -18,3 +18,42 @@ header {
   align-items: center;
   box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
 }
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 10px;
+  border: 1px solid green;
+}
+form {
+  max-width: 500px;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+}
+.note-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: flex-start;
+  border: 1px solid red;
+}
+.note {
+  font-size: 14px;
+  background-color: #fff;
+  padding: 10px 13px;
+  box-shadow: 0 0 10px rgba(219, 32, 32, 0.2);
+  border-radius: 10px;
+  min-height: 70px;
+  margin: 10px auto;
+  width: 30%;
+}
+.note .title {
+  color: rgb(255, 162, 0);
+  font-size: 17px;
+}
+.note .content {
+  color: #555;
+}
