@@ -114,6 +114,9 @@ form button {
   right: 45%;
   color: white;
 }
+.date-time {
+  font-size: 11px;
+}
 
 @media screen and (max-width: 800px) {
   .note-container {
